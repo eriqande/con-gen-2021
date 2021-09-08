@@ -1,7 +1,7 @@
 Con-Gen 2021. Eric C. Anderson’s resources
 ================
 
-## Wednedsay, September 8, 2021
+## Wednesday, September 8, 2021
 
 The presentation follows the narrative in the following html document:
 
@@ -40,3 +40,20 @@ RStudio on your computer, you can visit their pages on `shinyapps.io`:
   - <https://eriqande.shinyapps.io/001-allele-freq-estimation/>
   - <https://eriqande.shinyapps.io/002-genotype-likelihoods-from-reads/>
   - <https://eriqande.shinyapps.io/003-read-inference-gsi/>
+
+### If we have additional time
+
+I am expecting that the above will take most of the time we have
+together this morning, but if we have some leftover time, we could talk
+about gbs miscall rates in RAD data before probabilistic genotype
+calling was used, any my R package ‘whoa’.
+
+Lecture slides for this:
+
+<https://eriqande.github.io/con-gen-2021/gbs-miscall.pdf>
+
+The computer practical accompanying this segment is in the box directory
+in the RStudio Project `whoa-practical-session`. This will run on the
+RStudio Server (if you move the `whoa-practical-session` directory to
+your own home directory). Fire it up and run through
+`001-whoa-first-steps.Rmd`.
